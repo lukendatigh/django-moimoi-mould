@@ -1,4 +1,5 @@
 # Django MoiMoi Mould
+Django MoiMoi Moild is a non-bloated and flexible boilerplate for quickly setting up Django projects.
 
 ## Setup
 1. Clone repository
@@ -14,7 +15,7 @@
 4. Multipe settings files (development and production)
 
 #### Note 
-Before pushing to productioon. modify `manage.py` by changing `'demo.settings.development'` for development to `'demo.settings.production'` for production
+Before pushing to productioon, modify `manage.py` by changing `'demo.settings.development'` for development to `'demo.settings.production'` for production
 
 
 ### Dev Packages
@@ -22,9 +23,10 @@ Before pushing to productioon. modify `manage.py` by changing `'demo.settings.de
 
 
 ### Other useful commands
-1. `pipenv lock` to lock dependencies
-2. `pipenv graph` to print out tree of dependencies
-3. `pipenv graph --reverse` to print out reverse tree of dependencies
-4. `pipenv uninstall --all` to uninstall all dependencies
-5. `pipenv --venv` to find out where your virtual environment is
-6. `pipenv --where` to find out where your project root is 
+1. `pipenv install your-package-name` to install new packages
+2. `pipenv lock` to lock dependencies
+3. `pipenv graph` to print out tree of dependencies
+4. `pipenv graph --reverse` to print out reverse tree of dependencies
+5. `pipenv uninstall --all` to uninstall all dependencies
+6. `pipenv --venv` to find out where your virtual environment is
+7. `pipenv --where` to find out where your project root is 

@@ -5,7 +5,7 @@ Django MoiMoi Moild is a non-bloated and flexible boilerplate for quickly settin
 1. Clone repository
 2. Run `pipenv shell` to create virtual environment
 3. Run `pipenv install --dev` to install packages, including development packages
-4. Edit `.env` with your own variables and add uncomment it from the  `.gitignore` file
+4. Edit `.env` with your own variables and uncomment it from the  `.gitignore` file
 5. Rename the project by running `python manage.py rename your-new-project-name-`
 
 ### Included
@@ -16,7 +16,7 @@ Django MoiMoi Moild is a non-bloated and flexible boilerplate for quickly settin
 5. Multipe settings files (development and production)
 
 #### Note 
-Before pushing to productioon, modify `manage.py` by changing `'demo.settings.development'` for development to `'demo.settings.production'` for production
+Before pushing to production, modify `manage.py` by changing `'demo.settings.development'` for development settings to `'demo.settings.production'` for production settings
 
 
 ### Dev Packages
@@ -24,10 +24,10 @@ Before pushing to productioon, modify `manage.py` by changing `'demo.settings.de
 
 
 ### Other useful commands
-1. `pipenv install your-package-name` to install new packages
-2. `pipenv lock` to lock dependencies
-3. `pipenv graph` to print out tree of dependencies
-4. `pipenv graph --reverse` to print out reverse tree of dependencies
-5. `pipenv uninstall --all` to uninstall all dependencies
-6. `pipenv --venv` to find out where your virtual environment is
-7. `pipenv --where` to find out where your project root is 
+1. Install new packages `pipenv install your-package-name` 
+2. Lock dependencies `pipenv lock` 
+3. Check dependency tree `pipenv graph`
+4. Reverse dependency tree `pipenv graph --reverse`
+5. Remove all dependencies `pipenv uninstall --all`
+6. Get virtual environment location `pipenv --venv` 
+7. Get project root location `pipenv --where` 

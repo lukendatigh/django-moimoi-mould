@@ -10,9 +10,10 @@ Django MoiMoi Moild is a non-bloated and flexible boilerplate for quickly settin
 
 ### Included
 1. [Django Web Framework](https://www.djangoproject.com/)
-2. [Pillow](https://python-pillow.org/) 
-3. [Python decouple](https://pypi.org/project/python-decouple/)
-4. Multipe settings files (development and production)
+2. [django-storages](https://django-storages.readthedocs.io/en/latest/) and [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+3. [Pillow](https://python-pillow.org/) 
+4. [Python decouple](https://pypi.org/project/python-decouple/)
+5. Multipe settings files (development and production)
 
 #### Note 
 Before pushing to productioon, modify `manage.py` by changing `'demo.settings.development'` for development to `'demo.settings.production'` for production

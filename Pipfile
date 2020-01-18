@@ -10,6 +10,8 @@ django-debug-toolbar = "*"
 django = "*"
 pillow = "*"
 python-decouple = "*"
+django-storages = "*"
+boto3 = "*"
 
 [requires]
 python_version = "3.7"
